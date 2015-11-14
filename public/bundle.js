@@ -51,11 +51,11 @@
 
 	var _require = __webpack_require__(159);
 
-	var HelloWorld = _require.HelloWorld;
+	var Profile = _require.Profile;
 
 	__webpack_require__(160);
 
-	ReactDOM.render(React.createElement(HelloWorld, null), document.getElementById('app'));
+	ReactDOM.render(React.createElement(Profile, null), document.getElementById('app'));
 
 /***/ },
 /* 1 */
@@ -19645,7 +19645,7 @@
 /* 159 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
@@ -19657,30 +19657,72 @@
 
 	var React = __webpack_require__(1);
 
-	var HelloWorld = (function (_React$Component) {
-	  _inherits(HelloWorld, _React$Component);
+	var Profile = (function (_React$Component) {
+	  _inherits(Profile, _React$Component);
 
-	  function HelloWorld() {
-	    _classCallCheck(this, HelloWorld);
+	  function Profile() {
+	    _classCallCheck(this, Profile);
 
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(HelloWorld).apply(this, arguments));
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Profile).apply(this, arguments));
 	  }
 
-	  _createClass(HelloWorld, [{
-	    key: 'render',
+	  _createClass(Profile, [{
+	    key: "render",
 	    value: function render() {
 	      return React.createElement(
-	        'div',
-	        null,
-	        'Hello, cruel world'
+	        "div",
+	        { className: "page-container" },
+	        React.createElement(
+	          "div",
+	          { className: "profile" },
+	          React.createElement("img", { className: "photo", src: "static/photo.jpg" }),
+	          React.createElement(
+	            "div",
+	            { className: "text" },
+	            React.createElement(
+	              "h1",
+	              { className: "h1" },
+	              "Hello, world. I'm Kara."
+	            ),
+	            React.createElement(
+	              "h3",
+	              { className: "h3" },
+	              "Timezone aficionado & engineer @",
+	              React.createElement(
+	                "a",
+	                { target: "_blank", href: "https://www.thinkful.com" },
+	                "Thinkful"
+	              )
+	            ),
+	            React.createElement(
+	              "div",
+	              { className: "icons" },
+	              React.createElement(
+	                "a",
+	                { target: "_blank", href: "https://www.twitter.com/kalaliana" },
+	                React.createElement("i", { className: "icon fa fa-twitter fa-2x" })
+	              ),
+	              React.createElement(
+	                "a",
+	                { target: "_blank", href: "https://github.com/learykara" },
+	                React.createElement("i", { className: "icon fa fa-github fa-2x" })
+	              ),
+	              React.createElement(
+	                "a",
+	                { target: "_blank", href: "https://www.linkedin.com/in/learykara" },
+	                React.createElement("i", { className: "icon fa fa-linkedin fa-2x" })
+	              )
+	            )
+	          )
+	        )
 	      );
 	    }
 	  }]);
 
-	  return HelloWorld;
+	  return Profile;
 	})(React.Component);
 
-	module.exports = { HelloWorld: HelloWorld };
+	module.exports = { Profile: Profile };
 
 /***/ },
 /* 160 */
@@ -19714,10 +19756,10 @@
 
 	exports = module.exports = __webpack_require__(162)();
 	// imports
-
+	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Karla:400,700,400italic|Spinnaker);", ""]);
 
 	// module
-	exports.push([module.id, "div {\n  background-color: red;\n}\n", ""]);
+	exports.push([module.id, "/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */\nhtml,\nbody,\ndiv,\nspan,\napplet,\nobject,\niframe,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\np,\nblockquote,\npre,\na,\nabbr,\nacronym,\naddress,\nbig,\ncite,\ncode,\ndel,\ndfn,\nem,\nimg,\nins,\nkbd,\nq,\ns,\nsamp,\nsmall,\nstrike,\nstrong,\nsub,\nsup,\ntt,\nvar,\nb,\nu,\ni,\ncenter,\ndl,\ndt,\ndd,\nol,\nul,\nli,\nfieldset,\nform,\nlabel,\nlegend,\ntable,\ncaption,\ntbody,\ntfoot,\nthead,\ntr,\nth,\ntd,\narticle,\naside,\ncanvas,\ndetails,\nembed,\nfigure,\nfigcaption,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\noutput,\nruby,\nsection,\nsummary,\ntime,\nmark,\naudio,\nvideo {\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n  margin: 0;\n  padding: 0;\n}\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\nsection {\n  display: block;\n}\nbody {\n  line-height: 1;\n}\nol,\nul {\n  list-style: none;\n}\nblockquote,\nq {\n  quotes: none;\n}\nblockquote:before,\nblockquote:after,\nq:before,\nq:after {\n  content: none;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n.page-container {\n  height: 100vh;\n  width: 100%;\n  position: relative;\n  z-index: 1;\n}\n.page-container::before {\n  height: 100%;\n  width: 100%;\n  position: absolute;\n  left: 0;\n  top: 0;\n  z-index: -1;\n  background-image: url(\"/static/background.jpg\");\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: 50% 50%;\n  content: '';\n  opacity: .4;\n}\n.profile {\n  width: 680px;\n  max-width: 100%;\n  margin-left: auto;\n  margin-right: auto;\n  padding-top: 45px;\n  padding-bottom: 45px;\n  position: relative;\n  top: 50%;\n  -webkit-transform: translateY(-50%);\n      -ms-transform: translateY(-50%);\n          transform: translateY(-50%);\n}\n.photo {\n  width: 150px;\n  height: 150px;\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 15px;\n  border-radius: 100%;\n  vertical-align: top;\n}\n@media screen and (min-width: 640px) {\n  .photo {\n    display: inline-block;\n    margin-right: 10px;\n    margin-bottom: 0;\n  }\n}\n.text {\n  max-width: 100%;\n  padding-left: 20px;\n  padding-right: 20px;\n  margin-left: auto;\n  margin-right: auto;\n  text-align: center;\n}\n@media screen and (min-width: 640px) {\n  .text {\n    width: 440px;\n    display: inline-block;\n    text-align: left;\n  }\n}\n.h1 {\n  display: inline-block;\n  font-family: 'Spinnaker', sans-serif;\n  font-weight: 700;\n  font-size: 28px;\n  line-height: 45px;\n}\n@media screen and (min-width: 640px) {\n  .h1 {\n    font-size: 36px;\n  }\n}\n.h3 {\n  margin-bottom: 9px;\n  display: inline-block;\n  font-family: 'Karla', sans-serif;\n  font-size: 18px;\n  line-height: 30px;\n}\n@media screen and (min-width: 640px) {\n  .h3 {\n    font-size: 22px;\n  }\n}\na {\n  text-decoration: none;\n  color: #119BCE;\n  -webkit-transition: color .11s;\n  transition: color .11s;\n}\na:visited {\n  color: #0585B5;\n}\na:hover {\n  color: #69C7EA;\n}\n.icons .icon {\n  margin-right: 15px;\n}\n", ""]);
 
 	// exports
 

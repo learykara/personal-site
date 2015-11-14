@@ -1,8 +1,8 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
 
-const {HelloWorld} = require('./HelloWorld');
+const {Profile} = require('./Profile');
 
 require('./styles.less');
 
-ReactDOM.render(<HelloWorld/>, document.getElementById('app'));
+ReactDOM.render(<Profile/>, document.getElementById('app'));
