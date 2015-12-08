@@ -6,10 +6,11 @@ class Profile extends React.Component {
       <div className="profile">
         <img className="photo" src="static/photo.jpg"/>
         <div className="text">
-          <h1 className="h1">Hello, world. I'm Kara.</h1>
+          <h1 className="h1">hi, I'm kara.</h1>
+          <br/>
           <h3 className="h3">
-            Timezone aficionado & engineer @
-            <a target="_blank" href="https://www.thinkful.com">Thinkful</a>
+            timezone aficionado & engineer at&nbsp;
+            <a target="_blank" href="https://www.thinkful.com">thinkful</a>
           </h3>
           <div className="icons">
             <a target="_blank" href="https://www.twitter.com/kalaliana">
