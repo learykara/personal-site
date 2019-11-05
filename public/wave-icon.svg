@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" fill-rule="nonzero" stroke="#4A4A4A">
+            <rect id="Rectangle-Copy-3" stroke-width="3" fill="#F1F1F1" x="1.5" y="1.5" width="197" height="197"></rect>
+            <polygon id="Path-7" fill="#E0F7FA" points="1.5 2 22 2 1.5 104.5 22 198.5 1.5 198.5"></polygon>
+            <path d="M21.5,2 L40,2 L1,105 L40,198.5 L21.5,198.5 C7.83333333,158.944444 1,127.777778 1,105 C1,82.2222222 7.83333333,47.8888889 21.5,2 Z" id="Path-7-Copy" fill="#B2EBF2"></path>
+            <path d="M40.5,2 L59,2 L0.5,105 L59,198.5 L40.5,198.5 C13.8333333,158.944444 0.5,127.777778 0.5,105 C0.5,82.2222222 13.8333333,47.8888889 40.5,2 Z" id="Path-7-Copy-2" fill="#80DEEA"></path>
+            <path d="M59.5,2 L78,2 L1,105 L78,198.5 L59.5,198.5 C20.5,158.944444 1,127.777778 1,105 C1,82.2222222 20.5,47.8888889 59.5,2 Z" id="Path-7-Copy-3" fill="#4DD0E1"></path>
+            <path d="M79.5,2 L98,2 L0.5,105 L98,198.5 L79.5,198.5 C26.8333333,158.944444 0.5,127.777778 0.5,105 C0.5,82.2222222 26.8333333,47.8888889 79.5,2 Z" id="Path-7-Copy-4" fill="#26C6DA"></path>
+            <path d="M99.5,2 L118,2 L0.5,105 L118,198.5 L99.5,198.5 C33.5,158.944444 0.5,127.777778 0.5,105 C0.5,82.2222222 33.5,47.8888889 99.5,2 Z" id="Path-7-Copy-5" fill="#00BCD4"></path>
+            <path d="M119.5,2 L138,2 L1,105 L138,198.5 L119.5,198.5 C40.5,158.944444 1,127.777778 1,105 C1,82.2222222 40.5,47.8888889 119.5,2 Z" id="Path-7-Copy-6" fill="#00ACC1"></path>
+            <path d="M139.5,2 L158,2 L1.5,105 L158,198.5 L139.5,198.5 C47.5,158.944444 1.5,127.777778 1.5,105 C1.5,82.2222222 47.5,47.8888889 139.5,2 Z" id="Path-7-Copy-7" fill="#0097A7"></path>
+            <path d="M159.5,2 L178,2 L1,105 L178,198.5 L159.5,198.5 C53.8333333,158.944444 1,127.777778 1,105 C1,82.2222222 53.8333333,47.8888889 159.5,2 Z" id="Path-7-Copy-8" fill="#00838F"></path>
+            <path d="M179.5,2 L198,2 L1,105 L198,198.5 L179.5,198.5 C60.5,158.944444 1,127.777778 1,105 C1,82.2222222 60.5,47.8888889 179.5,2 Z" id="Path-7-Copy-9" fill="#006064"></path>
+        </g>
+    </g>
+</svg>
