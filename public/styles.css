@@ -50,3 +50,13 @@ p {
   display: inline-block;
   margin-right: 16px;
 }
+
+.icon-link:hover i {
+  color: #000;
+  transition: color 0.11s ease;
+}
+
+a:hover {
+  color: #000;
+  transition: color 0.11s ease;
+}
