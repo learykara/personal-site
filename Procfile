@@ -1,1 +1,1 @@
-web: node index.es6
+web: node index.js
